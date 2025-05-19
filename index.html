@@ -11,6 +11,9 @@
         font-family: helvetica, sans-serif;
         width: 350px;
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
 
       label {
@@ -34,12 +37,13 @@
         visibility: hidden;
       }
     </style>
+
   </head>
 
   <body>
     <div>
-      <label for="customname">Enter custom name:</label>
-      <input id="customname" type="text" placeholder="" />
+      <label for="customName">Enter custom name:</label>
+      <input id="customName" type="text" placeholder="" />
     </div>
     <div>
       <label for="us">US</label
@@ -52,5 +56,7 @@
     </div>
     <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
     <p class="story"></p>
+    <script src="../silly-story-generator/main.js"></script>
+
   </body>
 </html>
